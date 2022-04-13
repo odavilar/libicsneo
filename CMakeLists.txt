@@ -19,7 +19,7 @@ option(LIBICSNEO_ENABLE_CDCACM "Enable devices which communicate over USB CDC AC
 option(LIBICSNEO_ENABLE_FTDI "Enable devices which communicate over USB FTDI2XX" ON)
 
 if(NOT CMAKE_CXX_STANDARD)
-	set(CMAKE_CXX_STANDARD 11)
+        set(CMAKE_CXX_STANDARD 14)
 endif()
 
 include(GNUInstallDirs)
